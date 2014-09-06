@@ -1,10 +1,9 @@
 package com.pons;
 
+import org.apache.commons.lang.StringUtils;
+
 import java.io.File;
 import java.io.Serializable;
-import java.util.StringTokenizer;
-
-import org.apache.commons.lang.StringUtils;
 
 public class UserContributedFile
         implements Serializable

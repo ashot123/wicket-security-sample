@@ -8,6 +8,11 @@ import org.apache.wicket.authorization.strategies.role.Roles;
 public class ExampleWebSession extends AuthenticatedWebSession {
     private String userName;
 
+    public ExampleWebSession(Request request) {
+        super(request);
+
+    }
+
     public ExampleWebSession(AuthenticatedWebApplication application, Request request) {
         super(application, request);
     }

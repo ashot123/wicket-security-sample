@@ -1,16 +1,14 @@
 package com.pons;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.wicket.authentication.AuthenticatedWebApplication;
-import org.apache.wicket.authentication.AuthenticatedWebSession;
 import org.apache.wicket.extensions.ajax.markup.html.form.upload.UploadProgressBar;
 import org.apache.wicket.markup.html.form.Form;
 import org.apache.wicket.markup.html.form.upload.FileUpload;
 import org.apache.wicket.markup.html.form.upload.FileUploadField;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.util.lang.Bytes;
+
+import java.io.File;
+import java.io.IOException;
 
 public class FileUploadPage extends BasePage {
     // user-File_Title-tag1+tag2+tag_3.ext
